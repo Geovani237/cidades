@@ -8,7 +8,7 @@
     <title>Cidades - Londres</title>
     <link rel="shortcut icon" href="icone.png" type="image/x-icon">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
         #cabecalho {
             height: 200px;
@@ -23,7 +23,7 @@
         }
 
         #conteudo-principal {
-            height: 613px;
+
             background-color: #CECACA
         }
 
@@ -38,7 +38,7 @@
             font-weight: 500;
             text-align: center;
             font-family: 'Poppins', sans-serif;
-            text-transform:uppercase;
+            text-transform: uppercase;
         }
 
         .item-menu {
@@ -47,6 +47,22 @@
             font-size: 16px;
             color: #FF0110;
 
+        }
+
+        .subtitulo {
+            font-size: 40px;
+            color: #BC2BBF;
+            font-family: 'poppins';
+            font-weight: 600;
+        }
+        .texto-comun{
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Open Sans';
+            text-align: justify;
+        }
+        .texto-colunas{
+            column-count:2;
         }
     </style>
 </head>
@@ -60,7 +76,33 @@
         <a href="paris.html" class="item-menu">PARIS</a> -
         <a href="tokyo.html" class="item-menu">TOKYO</a>
     </nav>
-    <main id="conteudo-principal"></main>
+    <main id="conteudo-principal">
+
+        <h2 class="subtitulo">LONDRES</h2>
+        <video width="600" controls>
+            <source src="video/video-londres.mp4" type="video/mp4">
+        </video>
+        <p class="texto-comun">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae semper ex. Donec condimentum et dui eu
+            suscipit. Aliquam nec consequat arcu. Nam tristique, dui vitae iaculis lacinia, lectus magna porta justo,
+            quis mollis urna tortor non ipsum. Morbi aliquam aliquet accumsan. In porttitor congue turpis, non convallis
+            quam rhoncus nec. Mauris vestibulum nec erat eget laoreet. Curabitur urna odio, semper ut augue sit amet,
+            euismod vestibulum turpis.
+        </p>
+        <p class="texto-comun">Etiam sodales, leo eu accumsan consectetur, nisl sem convallis nibh, in rhoncus nunc diam non elit. In
+            malesuada ligula luctus justo sodales, eget interdum purus tincidunt. Pellentesque nec lacus felis. Aliquam
+            id luctus arcu. Proin porta ex id magna imperdiet, id iaculis enim dictum. Sed ac augue quis augue
+            consectetur rutrum. Ut dapibus ligula ac euismod ornare. Nam diam ligula, maximus in diam vitae, aliquam
+            rhoncus magna. Sed posuere convallis purus, a auctor odio pellentesque sit amet. Proin dignissim magna
+            commodo sapien tempus interdum. Mauris non pretium tortor. Etiam at cursus magna.
+        </p>
+        <p class="texto-comun texto-colunas">Cras sed diam in purus venenatis interdum. Sed venenatis vulputate lacinia. Aenean mauris tortor, luctus
+            vitae ullamcorper id, semper vitae mi. Maecenas lacinia, turpis sit amet pharetra faucibus, lorem massa
+            aliquet turpis, scelerisque porttitor dolor mi a felis. Nulla urna arcu, placerat eu libero vitae, sagittis
+            lobortis velit. Sed tortor risus, auctor eu leo nec, finibus lacinia augue. Maecenas tincidunt nunc massa,
+            vel feugiat ex tempor in. In commodo dolor sapien, id feugiat erat aliquet sed.</p>
+
+
+    </main>
     <footer id="rodape"></footer>
 </body>
 
